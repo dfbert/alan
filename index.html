@@ -58,7 +58,7 @@
             break;
 
             case 'message':
-				alert('message = '+e.message+'');
+				document.getElementById('ifra').src = e.noticia_link;
             break;
 
             case 'error':
@@ -80,7 +80,7 @@
 		</style>
 	</head>
 		<frameset rows="*,150px">
-		  <frame src="http://www.teste.aberhosting.com/mobile/">
+		  <frame id="ifra" src="http://www.teste.aberhosting.com/mobile/">
 		  <frame src="ads.html">
 		</frameset>
 </html>
