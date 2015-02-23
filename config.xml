@@ -15,7 +15,6 @@
     <author href="http://dfbert.com" email="contato@dfbert.com">
         Daniel Fabricio
     </author>
-	<icon src="logo.png" />
 
     <!--
         Enable individual API permissions here.
@@ -37,8 +36,8 @@
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
 	<preference name="android-minSdkVersion" value="5" />
-	<icon src="icon.png" />
-	<icon src="icon.png" gap:platform="android" />
+	<icon src="logo.png" />
+	<icon src="logo.png" gap:platform="android" />
 	<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
 	<gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.5.0" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
