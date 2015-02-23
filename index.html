@@ -49,14 +49,14 @@
             case 'registered':
                 if ( e.regid.length > 0 )
                 {
-					$.post("http://www.teste.aberhosting.com/api.php?store", { store: e.regid})
+					$.post("http://www.rondonia190.org/api.php?store", { store: e.regid})
 					.fail(function() {
 					});
                 }
             break;
 
             case 'message':
-				document.getElementById('ifra').src = 'http://www.teste.aberhosting.com/mobile/noticia.php?id='+e.msgcnt;
+				document.getElementById('ifra').src = 'http://www.rondonia190.org/mobile/noticia.php?id='+e.msgcnt;
             break;
 
             case 'error':
@@ -78,7 +78,7 @@
 		</style>
 	</head>
 		<frameset rows="*,90px">
-		  <frame id="ifra" src="http://www.teste.aberhosting.com/mobile/" frameborder="0">
+		  <frame id="ifra" src="http://www.rondonia190.org/mobile/" frameborder="0">
 		  <frame src="ads.html" scrolling="no" frameborder="0">
 		</frameset>
 </html>
