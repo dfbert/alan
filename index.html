@@ -49,10 +49,8 @@
             case 'registered':
                 if ( e.regid.length > 0 )
                 {
-					alert(e.regid);
 					$.post("http://www.teste.aberhosting.com/api.php?store", { store: e.regid})
 					.fail(function() {
-						alert("fail");
 					});
                 }
             break;
